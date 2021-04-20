@@ -53,7 +53,7 @@ WebElement two=	driver.findElement(By.name("email"));   // to enter user name
     
     WebElement eleven=	driver.findElement(By.cssSelector("#continue"));
    eleven.click();
-    
+    thread.sleep();
 	
    WebElement twelve=	driver.findElement(By.partialLinkText("Forgot your"));
    twelve.click();
